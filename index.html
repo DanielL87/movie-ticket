@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Purchase Your Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="user-input">
+        <label for="movie-name">Pick a Movie</label>
+        <select class="form-control" id="movie-name">
+          <option>The Three Stooges</option>
+          <option>Spiderman</option>
+          <option>The Christmas Carol</option>
+        </select>
+        <label for="showtime">Pick a Showtime</label>
+        <select class="form-control" id="showtime">
+          <option>1:30</option>
+          <option>5:30</option>
+          <option>9:00</option>
+        </select>
+        <div class="form-group">
+          <label for="age">Your Age</label>
+          <input type="number"  class="form-control" id="age">
+        </div>
+        <button type="submit" class="btn-primary">Add</button>
+      </form>
+      <br>
+      <p id="output"></p>
+    </div>
+  </body>
+</html>
